@@ -4,6 +4,6 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return """
-    <center><h1>This is a Flask App on Azure</h1></center>
+    <center><h1>This is an Azure Flask Web App on Azure</h1></center>
     
     """
